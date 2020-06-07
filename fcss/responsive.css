@@ -1,0 +1,18 @@
+@media screen and (max-width: 1024px)
+{
+	p
+	{
+		color: white;
+		background: black;
+		height: 350px;
+		position: relative;
+		left: 50px;
+
+	}
+	}
+form
+{
+	position: relative;
+	left: 200px;
+}
+}

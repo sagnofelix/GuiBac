@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>GUI-BAC</title>
+	<link rel="stylesheet" type="text/css" href="fcss/accueil.css">
+        <metat charset="UTF-8"> 
+</head>
+<body>
+        
+	<header>
+		<div id="logo">
+		   <a href="accueil.html"><img src="photo/LOG.png" title="GUI-BAC"></a>
+		        <div class="conteneur" >    
+	                <div class="gui">
+		               GUI
+	                </div>
+	                <div class="bac">
+		              BAC
+	                </div>
+                    <div class="text">
+		              plateforme <span class="eva">d'evaluation </span><span class="line"> en ligne</span>
+	                </div>
+	            </div>
+	    </div>
+        <nav>
+            <ul>
+                 <li><a href="conexion.html">CONNEXION</a></li>
+                 <li><a href="formulaire.html">INSCRIPTION</a></li>
+                 <li><a href="">FORUM</a></li>
+                 <li><a href="aide.html">AIDE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <script type="text/javascript">
+       var i = 0;             // Start Point
+       var images = [];    // Images Array
+       var time = 3000;    // Time Between Switch
+     
+          // les images 
+       images[0] = "photo/1.jpeg";
+       images[1] = "photo/2.png";
+       images[2] = "photo/3.jpeg";
+       images[3] = "photo/4.jpeg";
+       images[4] = "photo/5.jpeg";
+       images[5] = "photo/6.jpeg";
+       images[6] = "photo/7.jpeg";
+
+            // la fonction qui Change les images
+           function changeImg(){
+                  document.photos.src = images[i];
+
+                  
+               if(i < images.length - 1){
+                     // l'image suivant
+                    i++; 
+                } else { 
+                      // pour recommencer O
+                    i = 0;
+                }
+
+               // le temps 
+               setTimeout("changeImg()", time);
+            }
+                   // appel
+                  window.onload=changeImg;     
+     </script>
+    <div id="album">
+      <img name="photos" width="400" height="500">
+    </div> 
+       <article class="monarticle" >
+
+            <h2>BIENEVUE SUR GUI_BAC</h2>
+            <p>
+                         Cette plateforme
+              <br>
+               vise à la préparation des candidats du <strong>Baccalauréat Unique de la République de Guinée</strong>
+              <br> 
+              pour mieux affronter les épreuves des différentes matières qu'il présente et qui sont en relation directe  
+              <br>
+              avec les programmes d'enseignement a travers les quiz <br>proposés par ce dernier.
+              <br>
+              <br>
+                Ces quiz permettront aux candidats de toutes options confondues
+              <br>
+             (Sciences Mathematiques, Sciences Expérimentale et Sciences Sociale) 
+               <br>
+             de tester leurs niveaux de compréhension sur le programme d'une manière concise et précise 
+             en fin de pouvoir corriger les difficultés et 
+             <br>
+             les lacunes rencontrées durant toute l'année scolaire et propose également d'autres objetifs futures
+            </p>
+
+        </article>
+          
+    
+    </section>
+    <footer>
+         <div id="projet">
+            <fieldset>
+                <legend>Projet_Web</legend>
+                <a href="https://www.google.co.ma/search?client=opera&hs=DOf&sxsrf=ACYBGNSsgtyzxQb_RXYqlm57DZjFIJW1-Q%3A1575653553550&ei=sZDqXaaDIduHjLsP8YKIqAk&q=fssm+marrakech&oq=fssm+marrakech&gs_l=psy-ab.12..0i71l8.0.0..4740...0.2..0.0.0.......0......gws-wiz.7vmhvQHMQh8&ved=0ahUKEwjmn-TyxqHmAhXbA2MBHXEBApUQ4dUDCAo"><img src="photo/FSSM_logo.png"> </a><h2> DEPARTEMENT INFORMATIQUE</h2>
+                <h3>SEMESTRE: 3</h3>
+                <p>Année universitaire 2019-2020</p>
+
+            </fieldset> 
+        </div>
+        <span>
+           <h2>Binome</h2>
+
+            <div id="ciscom">
+                <h3>Mamadou Cissé</h3>
+                    <table>
+                        <tr>
+                            <td><a href="mailto:mamadouibncissse@gmail.com"><img src="photo/gmail.png"></a></td>
+                            <td><a href="#"><img src="photo/facebook.png"></a></td>
+                            <td><a href="https://twitter.com/home"><img src="photo/twitter.png"></a></td>
+                            <td><a href="#"><img src="photo/instagram.png"></a></td>
+                            <td><a href="#"><img src="photo/whatsapp.png"></a></td>
+                        </tr>
+                    </table>
+            </div>
+
+            <div id="felix">
+                <h3>Félix Sagno</h3>
+                    <table>
+                        <tr>
+                            <td><a href="mailto:gobou0303@gmail.com"><img src="photo/gmail.png"></a></td>
+                            <td><a href="https://www.facebook.com/vertongfelianho.sagnol?fref=search&__tn__=%2Cd%2CP-R&eid=ARDGOtixM0sAii_zz68290S_c_1QpABYFNql6LUgL8x-cXgAHtuThL8n01C1FJ9u6EXn9Mb"><img src="photo/facebook.png"></a></td>
+                            <td><a href="#"><img src="photo/twitter.png"></a></td>
+                            <td><a href="#"><img src="photo/instagram.png"></a></td>
+                            <td><a href="#"><img src="photo/whatsapp.png"></a></td>
+                        </tr>
+                    </table>
+            </div> 
+        </span>       
+            <div id="avis">
+           
+        </div>
+    </footer>
+	  
+
+</body>
+</html>

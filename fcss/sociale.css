@@ -1,0 +1,92 @@
+body
+{
+	background-color: #ccc;
+}
+.parg
+{
+	width: 63%;
+	height: 165px;
+	background:purple;
+	position: relative;
+	left: 200px;
+	padding: 20px;
+	box-shadow: 8px 10px black;
+	font-size: 15px;
+}
+.logo
+{
+	width: 100%;
+	height: 250px;
+}
+.indication
+{
+	text-align: center;
+	text-decoration: underline;
+}
+.souhait
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+}
+.titre
+{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow:5px 3px green;
+	font-size: 50px;
+}
+.soul
+{
+	//color: green;
+	font-size: 22px;
+	font-weight: bold;
+}
+.envoi
+{
+	width: 15%;
+	height: 50px;
+	/*background-image:url("photo/logo.png");*/
+    color: white;
+    background:black;
+    border-radius: 7px;
+    font-size:23px;
+}
+body
+{
+	/*background:src="photo/logo.png";*/
+}
+.formul
+{
+	position: relative;
+	margin: 15px;
+}
+.h1n
+{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 3px 3px green;
+	font-size: 50px;
+}
+.je
+{
+	text-decoration: underline;
+}
+.BON
+{
+  text-decoration: underline;	
+}
+.envoi
+{
+	width: 15%;
+	height: 50px;
+	/*background-image:url("photo/logo.png");*/
+    color: white;
+    background:black;
+    border-radius: 7px;
+    font-size:30px;
+    box-shadow: 8px 10px  green;
+    margin-bottom:30px;
+    position: relative;
+    left: 200px;
+}

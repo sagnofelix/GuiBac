@@ -1,0 +1,317 @@
+body
+{
+	background-color:#ccc;
+	                     /*fond de la page */
+	background-attachment: scroll;
+	border-radius: 20px;
+	
+}
+
+
+header
+{
+	margin:0px 0px;
+    display: flex;
+    border-left:5px solid rgba(248, 26, 4,0.5);
+	border-top:5px solid rgba(248, 26, 4,0.5);
+	border-right: 5px solid rgba(248, 222, 3,0.5); 
+	border-radius:10px;
+	border-bottom: 5px solid rgba(17, 225, 3,0.5);
+    background:rgba(45, 9, 63,0.5);
+    box-shadow: 2px 3px 2px rgba(45, 9, 63,0.5);
+}
+img
+{  width: 105px;
+	position:relative;
+	left: 10px;
+	border-radius: 20px;
+}
+.conteneur
+{
+	position: relative;
+	left: 0px;
+        display: flex;
+	                                      /* LOGO ET LES TEXTES DANS HEADER*/
+}
+
+#logo
+{
+	display: flex;
+	font-size: 35px;
+	text-shadow: 2px 2px 2px black;
+	clear: both;
+         width: 30px;
+}
+.gui
+{   position: relative;
+	text-shadow: 2px 2px 2px black;
+         left: 10px;
+         top: -2px;
+}
+.bac
+{
+	
+	position: relative;
+	top: 20px;
+	color: cadetblue; 
+         left: -15px;
+}
+.text
+{
+	position: relative;
+	transform:translate(-60px,39px);
+}
+.eva
+{
+
+	position: relative;
+	top: -10px;
+	left: 30px;
+}
+.line
+{
+	position: relative;
+	top:-25px;
+	left: 60px;
+}
+
+/*<=========================================================*/
+
+
+
+
+nav
+{
+        position: relative;
+        top:-50px;
+        left: 550px;
+        height: 50px;
+        background-image:url(photo/font.jpg); 
+
+         
+}
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	line-height: 35px;
+
+}
+nav li
+{
+	list-style: none;
+	float: left;
+    flex-direction: row;
+	position: relative;
+}
+nav ul li a
+{
+	color: black;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: none;
+	border-radius: 10px;
+	width: 160px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	background:linear-gradient(to right,red,yellow,green 80%);;
+	font-size: 20px;
+	margin-right:2px;
+
+
+}
+nav ul li a:hover
+{
+     animation: ombre 10s ease-in-out alternate infinite;
+	-webkit-animation:ombre 10s ease alternate infinite;
+	-o-animation:ombre 10s  ease alternate infinite;
+	-moz-animation:ombre 10s ease alternate infinite;
+	
+
+}
+@keyframes ombre
+{
+	to
+	{
+       box-shadow: 2px -3px 10px white;
+	}
+	30%
+	{
+		box-shadow: 2px 3px 10px red;
+	}
+	60%
+	{
+		box-shadow: -2px 3px 10px yellow;
+	}
+	to
+	{
+		box-shadow: -2px -3px 10px green;
+	}
+}
+nav ul ul
+{
+	position: absolute;
+	top:50px;
+	visibility:hidden;
+	margin-bottom: 30px;
+}
+nav ul ul li a
+{
+	text-align: center;
+	line-height: 50px;
+	background-color:rgba(45, 9, 63,0.5);
+	
+	
+}
+nav ul li:hover ul
+{
+	visibility: visible;
+	
+}
+ul>li a:hover
+{
+  	
+	transform: scale(1.5) translateX(-10px);
+     margin-bottom:2px;
+    font-size: 30px;
+    transition: transform 2s ease-in-out,font-size 2s linear;
+    color: white;
+}
+ nav div
+{
+	position: relative;
+	top:55px;
+	left:-101px;
+	height: 90px;
+	width: 90px;
+	font-family: sans-serif;
+	text-shadow: 2px 2px 2px rgba(45, 9, 63,0.5);
+	text-align: center;
+	line-height: 90px;
+	font-size: 30px;
+	border-right: 5px solid rgba(45, 9, 63,0.5);
+
+	
+	
+}
+
+
+
+
+
+/* la mise en forme du contenue de la page*/
+
+#premier
+{
+	width: 100%;
+   	height: 500px;
+	margin-top: 40px;
+	float: flex;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(45, 9, 63,0.5);
+}
+aside
+{
+   border:2px solid yellow;
+   width: 100px;
+   height: 500px;
+}
+#pub
+{
+	float: left;
+	width: 80%;
+	height: 490px;
+	clear: both;
+}
+#menu ul li 
+{
+  list-style: none;
+  margin-top: 30px;
+  text-align: center;
+ 
+}
+#menu ul li a
+{
+     text-decoration: inherit rgba(45, 9, 63,0.5);
+     font-family: sans-serif;
+     font-size: 20px;
+     color: black;
+    text-shadow: 2px 2px 2px black;
+
+}
+#menu ul li a:hover
+{
+	color: white;
+	margin-bottom: 30px;
+    font-size:21px;
+    transition: font-size 1s ease-in-out;
+}
+#menu ul li a:visited
+{
+	
+}
+h2
+{
+	color:rgba(45, 9, 63);
+}
+.photo
+{
+	width: 99%;
+	height: 493px;
+
+}
+
+/*deuxieme section*/
+
+#info
+{
+	
+	margin:0px;
+	padding: 0px;
+	display:flex;
+}
+#info h1
+{
+	line-height: center;
+	font-family: sans-serif;
+	position: absolute;
+	text-shadow: 2px 2px 2px black;
+	color:rgba(45, 9, 63);
+	top: 107%;
+
+}
+
+ #actu 
+{
+	height: 70px;
+	border: 2px solid rgba(45, 9, 63);;
+	border-radius: 10px;
+	width: 82%;
+	height:40px;
+	margin: 5px 3px;
+	margin-right: 5px;
+	padding: 0px;
+	position: relative;
+	left: 220px;
+	top: 5px;
+	text-align: center;
+	text-shadow: 5px 5px green;
+	text-decoration: underline;
+	background-color: black;
+	color: white;
+	
+
+}
+#info aside
+{
+
+}
+/*la mise en forme de la partie footer*/
+.para
+{
+	color: green;
+	text-shadow: 5px 2px yellow;
+	position: relative;
+	font-size: 31px;
+	bottom:28px;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUI-BAC</title>
+    <link rel="stylesheet" type="text/css" href="fcss/formulaire.css">
+</head>
+<body>
+	<header>
+    		 
+        
+
+    </header>
+	<section>
+
+        <form method="post" action="traitement.php">
+        	<fieldset>
+                 <h1>VEILLEZ REMPLIRE TOUTES CES INFORMATIONS</h1>
+        		 <table width="100%">
+        		  <div id="Nom">
+        		 	<tr>
+        		 		<th>
+        		 			<label for="nom">Nom</label>
+        		 		</th>
+                    </tr>
+                    <tr>    
+        		 		 <td>
+                        	<input type="text" name="nom" placeholder="ECRIVEZ VOTRE NOM" required="obligatoire">
+                       </td>
+                    </tr>
+                  </div> 
+                  
+                  <div id="prenom">
+                    <tr>
+                    	<th>
+                    		<label for="prenom">Prenom</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="text" name="prenom" placeholder="ECRIVEZ VOTRE PRENOM" required="obligatoire">
+                    	</td>
+                    </tr>
+                  </div>  
+
+                  <div id="date">
+                    <tr>
+                    	<th>
+                    		<label for="date">Date de Naissance</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="date" name="date">
+                    	</td>
+                    </tr>
+                  </div>
+                  
+                  <div id="lieu">
+                    <tr>
+                    	<th>
+                    		<label for="lieu">Lieu De Naisssance:</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                          <input type="text" name="lieu">
+                    	</td>
+                    </tr>
+                  </div>
+
+                  <div id="pere"> 
+                    <tr>
+        		 		<th>
+        		 			<label for="nom du pere">Pere</label>
+        		 		</th>
+                    </tr>
+                    <tr>    
+        		 		 <td>
+                        	<input type="text" name="father" placeholder="PRENOM DE VOTRE PERE" required="obligatoire">
+                       </td>
+                    </tr>
+                  </div>
+                    <tr>
+                    	<th>
+                    		<label for="mother">Mere</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="text" name="prenom" placeholder="NOM ET PRENOM DE VOTRE MERE" required="obligatoire">
+                    	</td>
+                    </tr>
+             
+
+                  <div id="ecole">
+                    <tr>
+                    	<th>
+                    		<label for="ecole">Etablissement</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="text" name="ecole" placeholder="LE NOM DE VOTRE ECOLE" required="obligatoire">
+                    	</td>
+                    </tr>
+                  </div>
+
+                  <div id="pv">
+                    <tr>
+                    	<th>
+                    		<label for="pv">PV:</label>
+                    	</th>
+                    </tr>
+                    <tr>
+                    	<td>
+                    		<input type="number" name="pv" placeholder="1234" required="ce champ est obligatoire">
+                    	</td>
+                    </tr>
+                  </div>
+
+                
+                    <tr>
+                    	<th>
+                    		<label for="option">Option</label>
+                    	</th>
+                    </tr>
+                    <tr>     
+                        <td>
+                          <div id="option"> 
+                             <div id=op>
+                               <label for="option">Sciences Mathematiques</label><br>
+                             </div>
+                             <div id="op">
+                               <label for="option">Sciences Experimentales</label><br>
+                             </div>
+                             <div id="op">
+                                <label for="option">Sciences sociales</label><br>
+                             </div>   
+                           </div>
+                        </td>
+                    	<td>
+                    	   <input type="radio" name="option" ><br>
+                           <input type="radio" name="option" ><br>
+                           <input type="radio" name="option" ><br
+                        </td>
+                    </tr> 
+
+                  <div id="commune">
+                    <tr>
+                    	<th>
+                    		<label for="commune">Commune</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<select name="commune" 
+                                size="1"
+                                onfocus="this.style.color='black'"
+                                onchange="alert('MERCI DE VOTRE CHOIX')"
+                                 onblur="this.style.color='black">
+                                    <span id="fair"> <option value="null">Commune</option></span>
+                                    <span id="fair"><option value="KALOUM">Kaloum</option></span>
+                                    <span id="fair"> <option value="DIXINN">Dixinn</option></span>
+     	                            <span id="fair"> <option value="MATAM">Matam</option></span>
+                                    <span id="fair"> <option value="MATOTO">Matoto</option></span>
+                                    <span id="fair"> <option value="RATOMA">Ratoma</option></span>
+                            </select>
+                    	</td>
+                    </tr>
+                  </div>
+                  
+                  <div id="mail">  
+                    <tr>
+                    	<th>
+                    		<label for="mail">E-Mail:</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="mail" name="mail" placeholder="email@gmail.com" >
+                    	</td>
+                    </tr>
+                  </div>
+                  
+                  <div id="op">  
+                    <tr>
+                    	<th>
+                    		Sexe:
+                    	</th>
+                    </tr>
+                    <tr>
+                    	<td>
+                    		<span id="fair"><label for="sexe1">Homme</label></span>
+                        </td>
+                        <td>
+                        	<input type="radio" name="sexe"><br>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>
+                    		<span id="fair"><label for="sexe2">Femme</label></span>
+                    	</td>
+                    	<td>
+                    		<input type="radio" name="sexe">
+                    	</td>
+                    </tr> 
+                  </div>     
+                   
+                  <div id="pass"> 
+                    <tr>
+                    	<th>
+                    		<label for="password">Mot de passe:</label>
+                    	</th>
+                    </tr>
+                    <tr>
+                        <td>
+                    		<input type="number" name="password" placeholder="DONNER UN MOT DE PASSE" required>
+                    	</td>
+                    </tr>
+                    <tr>
+                    	<th>
+                    		<label for="password">Confirmation du mot de passe</label>
+                    	</th>
+                    </tr>
+                    <tr>    
+                    	<td>
+                    		<input type="number" name="password" placeholder="ECRIVEZ A NOUVEAU LE MOT DE PASSE ">
+                    	</td>
+                    </tr>
+
+                </table>
+                <p><a href="autre.html" ><input type="submit" name="accueil" value="ENREGISTRER" ></a></p>
+        	</fieldset>
+                <div id="retour">
+            <a href="accueil.html"><input type="submit" name="raccueil" value="RETOUR"></a>
+        </div>  
+        
+        </form>
+    
+     </section>
+   
+</body>
+</html>

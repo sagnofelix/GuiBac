@@ -1,0 +1,130 @@
+body
+{ 
+	
+	background-color: #ccc ;
+	                     /*fond de la page */
+	background-attachment: scroll;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+header
+{
+	width: 100%;
+	height: 500px;
+	background-color: rgba(45, 9, 63,0.5);
+}
+form
+{
+	position: relative;
+	transform: translate(20%,-50%);
+	width: 70%;
+}
+
+
+h1{
+	font-style: 40px;
+	font-family: bold;                     
+	text-shadow: 4px 4px 4px black;
+	color: black;
+	font-style: arial;
+}
+section
+{
+
+	position: relative;
+	top: 300px;
+
+}
+  /*la mise forme du balise fieldset et ses composantes*/
+
+fieldset
+{
+    background: #ccc;	
+	width: 80%;
+	height: 20%;
+	border-left:5px solid red; 
+	border-top:5px solid red;
+	border-right: 5px solid yellow; 
+	
+	border-bottom: 5px solid green;  
+	border-radius:50px;
+	box-shadow: 3px 3px 3px black;
+	position: relative;
+	left: 90px;
+	right: 0px;
+	
+}
+fieldset p{
+	width: 25%;
+	background:linear-gradient(to right,red,yellow,green 80%);  /* enregistre*/
+	border: 1px solid black ; 
+	 border-radius: 40px;                         
+	
+	
+}
+input{
+	background: none;
+	width: 100%;
+	height: 30px;               /*les champs de saisi*/
+	border: none;
+	font-size: 20px;
+
+}
+	
+
+th{
+	font-size: 30px;
+	font-family: arial;              /* la mise en forme renseignememt  nom,prenom etc.. */
+	text-shadow: 3px 3px 3px black;
+}
+
+
+#option{
+	color: black;
+	font-size: 30px;
+	font-family: arial;  /*les options dans laquelle se trouve #op*/
+	width: 100%;
+}
+#op{
+	
+	border-bottom: 1px solid black;
+	border-radius: 1px;                /*option*/
+}
+
+#fair
+{
+	font-size: 20px;
+	font-style: italic; /* HOMME , FEMME*/
+	font-family: bold;
+}
+select{
+	font-size: 30px;
+	background-color: rgb(237, 214, 209);
+	border-left:2px solid red;
+	border-top: 2px solid red;
+	border-right:2px solid yellow;
+	border-bottom:2px solid green;
+	border-radius: 30px;
+}
+
+#retour input
+{
+         margin:15px;
+	width: 240px;
+	height: 40px;
+	background: linear-gradient(to right,red,yellow,green 80%);
+	border-left:2px solid red; 
+	border-top:2px solid red;
+	border-right: 2px solid yellow;     /*la balise fieldset*/
+	border-bottom: 2px solid green;
+	border-radius: 40px;
+	
+	position: relative;
+	left: 40%;
+}
+ nav a 
+{
+   height: 50px;
+}
